@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: viswanathkasi/train
+          image: viswanathkasi/construction
           ports:
             - containerPort: 80
 ...
