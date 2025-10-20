@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: viswanathkasi/dth
+          image: viswanathkasi/recharge
           ports:
             - containerPort: 80
 ...
