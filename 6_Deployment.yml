@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: viswanathkasi/superapp
+          image: viswanathkasi/construction
           ports:
             - containerPort: 80
           envFrom:
