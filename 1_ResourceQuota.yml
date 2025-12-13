@@ -5,7 +5,7 @@ metadata:
   namespace: test
 spec:
   hard:
-    requests.cpu: "500m"
-    limits.cpu: "1000m"
-    requests.memory: "50Mi"
-    limits.memory: "100Mi"
+    requests.cpu: "1000m"
+    limits.cpu: "1500m"
+    requests.memory: "500Mi"
+    limits.memory: "1000Mi"
