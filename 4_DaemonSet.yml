@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: ds
+spec:
+  selector:
+    matchLabels:
+      app: swiggy-ds
+  template:
+    metadata:
+      labels:
+        app: swiggy-ds
+    spec:
+      containers:
+        - name: cont1
+          image: nginx
+          ports:
+            - containerPort: 80
