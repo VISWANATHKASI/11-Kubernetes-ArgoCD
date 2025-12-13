@@ -4,7 +4,7 @@ metadata:
   name: test-rq
 spec:
   hard:
-    requests.cpu: "1000m"
-    limits.cpu: "1500m"
-    requests.memory: "500Mi"
-    limits.memory: "1000Mi"
+    requests.cpu: "2000m"
+    limits.cpu: "2500m"
+    requests.memory: "1000Mi"
+    limits.memory: "1500Mi"
